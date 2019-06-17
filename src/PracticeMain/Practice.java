@@ -10,6 +10,8 @@ import Practices.Practice_8;
 import Practices.Practice_9;
 import Practices.Practice_10;
 import Practices.Practice_11;
+import Practices.Practice_12;
+
 public class Practice {
 
 	public static void main(String[] args) {
@@ -24,7 +26,8 @@ public class Practice {
 		//Practice_8.practice8();
 		//Practice_9.practice9();
 		//Practice_10.practice10();
-		Practice_11.practice11();
+		//Practice_11.practice11();
+		Practice_12.practice12();
 	}
 
 }
