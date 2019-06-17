@@ -11,6 +11,7 @@ import Practices.Practice_9;
 import Practices.Practice_10;
 import Practices.Practice_11;
 import Practices.Practice_12;
+import Practices.Practice_13;
 
 public class Practice {
 
@@ -27,7 +28,8 @@ public class Practice {
 		//Practice_9.practice9();
 		//Practice_10.practice10();
 		//Practice_11.practice11();
-		Practice_12.practice12();
+		//Practice_12.practice12();
+		Practice_13.practice13_1();
 	}
 
 }
