@@ -76,8 +76,49 @@ public class Practice_13 {
 		}
 		return num;
 	}
+	
+	
 	public static void practice13_2() {
+		Box<Double> number = new Box<Double>();
+		number.Box(20.5, 10.5);
+		System.out.println("a=20,b=10");
+		System.out.println(number.sum()+","+number.sub()+","+number.mul()+","+number.div());
 		
 	}
+	
+	public static class Box<T>{
+		private T a;
+		private T b;
+		public void Box(T a, T b) {
+			this.a = a;
+			this.b = b;
+		}
+		
+		public T getA() {
+			return a;
+		}
 
+		public T getB() {
+			return b;
+		}
+
+		
+		public double sum()
+		{
+			return (double)getA()+(double)getB();
+		}
+		public double sub()
+		{
+			return (double)getA() - (double)getB();
+		}
+		public double mul()
+		{
+			return (double)getA() * (double)getB();
+		}
+		public double div()
+		{
+			
+			return (double)getA()/(double)getB();
+		}
+	}
 }

@@ -29,7 +29,8 @@ public class Practice {
 		//Practice_10.practice10();
 		//Practice_11.practice11();
 		//Practice_12.practice12();
-		Practice_13.practice13_1();
+		//Practice_13.practice13_1();
+		Practice_13.practice13_2();
 	}
 
 }
